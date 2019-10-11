@@ -10,7 +10,7 @@ const CollectionItem = ({ id, name, price, imageUrl }) => (
         backgroundImage: `url(${imageUrl})`
       }}
     />
-    <div class='collection-footer'>
+    <div className='collection-footer'>
       <span className='name'>{name}</span>
       <span className='price'>{price}</span>
     </div>
